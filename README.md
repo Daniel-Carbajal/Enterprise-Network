@@ -50,3 +50,8 @@ This lab was completed as part of my CCNA preparation using Jeremy's IT Lab's Me
 ## Repository Structure
 
 ## Credits
+The original Mega Lab topology and lab requirements were created by
+Jeremy's IT Lab as part of his free CCNA course.
+
+This repository documents my implementation, configurations,
+verification, troubleshooting, and analysis of the lab.
