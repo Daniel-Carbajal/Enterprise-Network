@@ -10,7 +10,23 @@ This lab was completed as part of my CCNA preparation using Jeremy's IT Lab's Me
 [Connections & IPv4 Addresses.xlsx](https://github.com/user-attachments/files/31962457/Connections.IPv4.Addresses.xlsx)
 
 ## Technologies / Concepts
-
+- Cisco IOS
+- Cisco Packet Tracer
+- IPv4 and IPv6
+- Subnetting
+- VLANs and trunking
+- Inter-VLAN routing
+- Spanning Tree Protocol (STP)
+- EtherChannel
+- OSPF
+- Static and default routing
+- DHCP
+- DNS
+- NAT/PAT
+- Access Control Lists (ACLs)
+- First-Hop Redundancy
+- Network device hardening
+- Layer 2 and Layer 3 troubleshooting
 ## Architecture
 
 ## Configuration Highlights
