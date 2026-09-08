@@ -5,9 +5,8 @@ The project includes VLAN segmentation, inter-VLAN routing, dynamic routing, spa
 
 This lab was completed as part of my CCNA preparation using Jeremy's IT Lab's Mega Lab and expanded/documented as a portfolio project.
 
-## Network Topology
+## <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/tree/main/Topology">Network Topology</a>
 <img width="1112" height="708" alt="Screenshot 2026-09-08 095334" src="https://github.com/user-attachments/assets/9e7723a0-7194-464c-a8b4-5000f9c0cb8f" />
-[Connections & IPv4 Addresses.xlsx](https://github.com/user-attachments/files/31962457/Connections.IPv4.Addresses.xlsx)
 
 ## Technologies / Concepts
 - Cisco IOS
@@ -29,6 +28,7 @@ This lab was completed as part of my CCNA preparation using Jeremy's IT Lab's Me
 - Layer 2 and Layer 3 troubleshooting
 ## Architecture
 
+[Connections & IPv4 Addresses.xlsx](https://github.com/user-attachments/files/31962457/Connections.IPv4.Addresses.xlsx)
 ## Configuration Highlights
 
 ## Verification
