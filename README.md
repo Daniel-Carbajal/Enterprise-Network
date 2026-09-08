@@ -36,6 +36,16 @@ This lab was completed as part of my CCNA preparation using Jeremy's IT Lab's Me
 ## Troubleshooting
 
 ## What I Learned
+- Configured and troubleshot Cisco routers and switches through IOS CLI
+- Designed and implemented VLAN segmentation and 802.1Q trunking
+- Configured Layer 3 routing between multiple network segments
+- Implemented dynamic routing using OSPF
+- Configured redundant Layer 2 paths using STP
+- Built aggregated switch links using EtherChannel
+- Implemented DHCP, NAT/PAT, and access control policies
+- Verified network operation using Cisco IOS diagnostic commands
+- Diagnosed Layer 2 and Layer 3 connectivity issues
+- Documented network topology, addressing, configurations, and validation
 
 ## Repository Structure
 
