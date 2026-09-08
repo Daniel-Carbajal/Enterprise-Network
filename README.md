@@ -28,13 +28,13 @@ This lab was completed as part of my CCNA preparation using Jeremy's IT Lab's Me
 - First-Hop Redundancy
 - Network device hardening
 - Layer 2 and Layer 3 troubleshooting
-## Architecture
+## <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/blob/main/Documentation/architecture.md">Architecture</a>
 The network follows a hierarchical enterprise design consisting of an edge, core, distribution, and access layer.
 
 R1 provides connectivity between the internal network and two simulated ISPs. CSW1 and CSW2 form the redundant Layer 3 core and connect to both distribution switch pairs. Each office uses two distribution switches to provide redundant routing and first-hop gateway services through HSRP.
 
 Access switches provide connectivity for user workstations, IP phones, wireless infrastructure, and servers. VLAN segmentation separates user, voice, server, wireless, and network-management traffic.
-## Network Segmentation
+## <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/blob/main/Documentation/addressing-plan.md">Network Segmentation</a>
 | Network         | VLAN | Subnet         | Virtual Gateway |
 | --------------- | ---: | -------------- | --------------- |
 | Office A PCs    |   10 | `10.1.0.0/24`  | `10.1.0.1`      |
@@ -46,11 +46,9 @@ Access switches provide connectivity for user workstations, IP phones, wireless 
 | Management A    |   99 | `10.0.0.0/28`  | `10.0.0.1`      |
 | Management B    |   99 | `10.0.0.16/28` | `10.0.0.17`     |
 
-## Configuration Highlights
+## <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/tree/main/Verification">Verification</a>
 
-## Verification
-
-## Troubleshooting
+## <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/blob/main/Documentation/troubleshooting.md">Troubleshooting</a>
 
 ## What I Learned
 - Configured and troubleshot Cisco routers and switches through IOS CLI
