@@ -27,8 +27,11 @@ This lab was completed as part of my CCNA preparation using Jeremy's IT Lab's Me
 - Network device hardening
 - Layer 2 and Layer 3 troubleshooting
 ## Architecture
+The network follows a hierarchical enterprise design consisting of an edge, core, distribution, and access layer.
 
-[Connections & IPv4 Addresses.xlsx](https://github.com/user-attachments/files/31962457/Connections.IPv4.Addresses.xlsx)
+R1 provides connectivity between the internal network and two simulated ISPs. CSW1 and CSW2 form the redundant Layer 3 core and connect to both distribution switch pairs. Each office uses two distribution switches to provide redundant routing and first-hop gateway services through HSRP.
+
+Access switches provide connectivity for user workstations, IP phones, wireless infrastructure, and servers. VLAN segmentation separates user, voice, server, wireless, and network-management traffic.
 ## Configuration Highlights
 
 ## Verification
@@ -46,8 +49,6 @@ This lab was completed as part of my CCNA preparation using Jeremy's IT Lab's Me
 - Verified network operation using Cisco IOS diagnostic commands
 - Diagnosed Layer 2 and Layer 3 connectivity issues
 - Documented network topology, addressing, configurations, and validation
-
-## Repository Structure
 
 ## Credits
 The original Mega Lab topology and lab requirements were created by
