@@ -34,6 +34,18 @@ The network follows a hierarchical enterprise design consisting of an edge, core
 R1 provides connectivity between the internal network and two simulated ISPs. CSW1 and CSW2 form the redundant Layer 3 core and connect to both distribution switch pairs. Each office uses two distribution switches to provide redundant routing and first-hop gateway services through HSRP.
 
 Access switches provide connectivity for user workstations, IP phones, wireless infrastructure, and servers. VLAN segmentation separates user, voice, server, wireless, and network-management traffic.
+## Network Segmentation
+| Network         | VLAN | Subnet         | Virtual Gateway |
+| --------------- | ---: | -------------- | --------------- |
+| Office A PCs    |   10 | `10.1.0.0/24`  | `10.1.0.1`      |
+| Office A Phones |   20 | `10.2.0.0/24`  | `10.2.0.1`      |
+| Office B PCs    |   10 | `10.3.0.0/24`  | `10.3.0.1`      |
+| Office B Phones |   20 | `10.4.0.0/24`  | `10.4.0.1`      |
+| Servers         |   30 | `10.5.0.0/24`  | `10.5.0.1`      |
+| Wi-Fi           |   40 | `10.6.0.0/24`  | `10.6.0.1`      |
+| Management A    |   99 | `10.0.0.0/28`  | `10.0.0.1`      |
+| Management B    |   99 | `10.0.0.16/28` | `10.0.0.17`     |
+
 ## Configuration Highlights
 
 ## Verification
