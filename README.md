@@ -47,8 +47,26 @@ Access switches provide connectivity for user workstations, IP phones, wireless 
 | Management B    |   99 | `10.0.0.16/28` | `10.0.0.17`     |
 
 ## <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/tree/main/Verification">Verification</a>
+The completed network was validated using Cisco IOS verification commands and end-to-end connectivity testing.
+
+Key checks included:
+<ul>
+  <li>Verified OSPF neighbor adjacencies and dynamically learned routes</li>
+  <li>Confirmed HSRP active/standby gateway redundancy</li>
+  <li>Validated EtherChannel formation between redundant switches</li>
+  <li>Verified VLAN, trunking, and spanning-tree operation</li>
+  <li>Confirmed NAT/PAT translations at the Internet edge</li>
+  <li>Tested end-to-end connectivity between internal networks and external destinations</li>
+</ul>
+
+Supporting command output and connectivity tests are available in the <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/tree/main/Verification">verification/ directory</a>.
 
 ## <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/blob/main/Documentation/troubleshooting.md">Troubleshooting</a>
+During this lab 2 major configuration and connectivity issues were diagnosed and resolved during implementation of the lab.
+
+Troubleshooting involved validating Layer 1–3 connectivity, reviewing interface and VLAN configurations, checking routing and redundancy protocols, and using Cisco IOS diagnostic commands to isolate configuration errors.
+
+Detailed troubleshooting examples, including symptoms, root causes, resolutions, and verification steps, are documented in <a href="https://github.com/Daniel-Carbajal/Enterprise-Network/blob/main/Documentation/troubleshooting.md">documentation/troubleshooting.md</a>.
 
 ## What I Learned
 - Configured and troubleshot Cisco routers and switches through IOS CLI
